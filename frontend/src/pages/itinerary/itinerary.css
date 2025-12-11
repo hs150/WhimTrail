@@ -1,0 +1,60 @@
+/* Itinerary.css */
+
+.itinerary-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.itinerary-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1e3a8a; /* deep blue accent */
+}
+
+.itinerary-day {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.itinerary-day:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
+
+.itinerary-day h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2563eb; /* blue accent */
+}
+
+.itinerary-activities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itinerary-activities li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.itinerary-activities li:last-child {
+  border-bottom: none;
+}
+
+.itinerary-activities li::before {
+  content: "•";
+  color: #ef4444; /* red accent dot */
+  margin-right: 0.5rem;
+}

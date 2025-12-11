@@ -1,0 +1,21 @@
+.ai-section {
+  margin-top: 60px;
+}
+
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+@media (max-width: 900px) {
+  .ai-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ai-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,33 @@
+.dest-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.dest-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.dest-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.dest-info {
+  padding: 14px;
+}
+
+.dest-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dest-rating {
+  font-weight: bold;
+  color: #0077ff;
+  margin-top: 8px;
+}

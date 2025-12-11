@@ -1,0 +1,35 @@
+.carousel-wrapper {
+  margin-top: 50px;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.car-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: white;
+  padding: 8px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.left { left: -10px; }
+.right { right: -10px; }
